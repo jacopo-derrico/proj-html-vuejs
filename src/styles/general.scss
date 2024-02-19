@@ -1,6 +1,18 @@
 @use "./partials/variables" as *;
 @use "./partials/mixins" as *;
-// Import all of Bootstrap's CSS
+
+// bs variable override
+
+// navber
+$navbar-light-color:                $myOtherColor;
+$navbar-light-hover-color:          $mySecondaryColor;
+$navbar-light-active-color:         $mySecondaryColor;
+// dropdown
+$dropdown-border-radius: none;
+$dropdown-bg: $myPrimaryColor;
+$dropdown-link-hover-color: $myPrimaryColor;
+$dropdown-link-hover-bg: $mySecondaryColor;
+
 @import "bootstrap/scss/bootstrap";
 // Import font
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Oxanium:wght@200..800&display=swap');
