@@ -7,9 +7,7 @@ export default {
         propsName: String,
         propsType: Boolean,
         propsLink: String,
-        propsDropItems: Array,
-        propsDropName: String,
-        propsDropLink: String
+        propsDropItems: Array
     },
     data() {
         return {
@@ -22,12 +20,13 @@ export default {
 
 <template>
     <li v-if="propsType === true" class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             {{ propsName }}
         </a>
         <ul class="dropdown-menu">
             <li v-for="pages in propsDropItems">
-                <a class="dropdown-item" :href="propsDropLink">{{ propsDropName }}</a></li>
+                <a class="dropdown-item" :href="pages.link">{{ pages.name }}</a>
+            </li>
         </ul>
     </li>
     <li v-else class="nav-item">
@@ -38,6 +37,13 @@ export default {
 
 <style lang="scss" scoped>
 @use "../styles/general.scss" as *;
+@use "../../src/styles/partials/variables.scss" as *;
 
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
 
+.dropdown>.dropdown-toggle:active {
+    pointer-events: none;
+}
 </style>
