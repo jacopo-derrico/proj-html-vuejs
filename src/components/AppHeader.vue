@@ -2,7 +2,7 @@
 import { store } from "../store";
 
 export default {
-    name: 'AppComponent',
+    name: 'AppHeader',
     data() {
         return {
             store
@@ -13,7 +13,7 @@ export default {
 
 
 <template>
-
+    
 </template>
 
 

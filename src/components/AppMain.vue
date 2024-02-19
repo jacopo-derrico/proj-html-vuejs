@@ -2,7 +2,7 @@
 import { store } from "../store";
 
 export default {
-    name: 'AppComponent',
+    name: 'AppMain',
     data() {
         return {
             store
