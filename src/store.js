@@ -13,7 +13,7 @@ export const store = reactive({
             isDropdown: false,
             link: '#',
             dropdownItems: []
-        },{
+        }, {
             name: 'Blog',
             isDropdown: true,
             link: '#',
@@ -31,12 +31,12 @@ export const store = reactive({
                     link: '#'
                 }
             ]
-        },{
+        }, {
             name: 'Media',
             isDropdown: false,
             link: '#',
             dropdownItems: []
-        },{
+        }, {
             name: 'ShortCode',
             isDropdown: false,
             link: '#',
@@ -49,4 +49,21 @@ export const store = reactive({
             dropdownItems: []
         },
     ],
+    headerActionNav: [
+        {
+            name: 'search',
+            link: '#',
+            faClass: 'fa-magnifying-glass'
+        },
+        {
+            name: 'account',
+            link: '#',
+            faClass: 'fa-user'
+        },
+        {
+            name: 'cart',
+            link: '#',
+            faClass: 'fa-bag-shopping'
+        },
+    ]
 })
