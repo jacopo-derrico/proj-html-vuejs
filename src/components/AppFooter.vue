@@ -13,7 +13,7 @@ export default {
 
 
 <template>
-
+<p>ciao</p>
 </template>
 
 
