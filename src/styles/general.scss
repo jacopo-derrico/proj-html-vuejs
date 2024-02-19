@@ -2,3 +2,9 @@
 @use "./partials/mixins" as *;
 // Import all of Bootstrap's CSS
 @import "bootstrap/scss/bootstrap";
+// Import font
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Oxanium:wght@200..800&display=swap');
+
+body {
+    font-family: "Oxanium", sans-serif;
+}
