@@ -4,9 +4,9 @@
 // bs variable override
 
 // navber
-$navbar-light-color:                $myOtherColor;
-$navbar-light-hover-color:          $mySecondaryColor;
-$navbar-light-active-color:         $mySecondaryColor;
+$navbar-light-color: $myOtherColor;
+$navbar-light-hover-color: $mySecondaryColor;
+$navbar-light-active-color: $mySecondaryColor;
 // dropdown
 $dropdown-border-radius: none;
 $dropdown-bg: $myPrimaryColor;
@@ -20,6 +20,10 @@ $input-border-radius: 0;
 $input-group-addon-bg: $myOtherColor;
 $input-group-addon-color: $myPrimaryColor;
 $input-group-addon-border-color: none;
+// buttons
+$btn-border-radius: none;
+// fonts
+$h1-font-size: 3.5rem;
 
 @import "bootstrap/scss/bootstrap";
 // Import font
@@ -27,4 +31,27 @@ $input-group-addon-border-color: none;
 
 body {
     font-family: "Oxanium", sans-serif;
+}
+
+
+// yello tex highligth background
+.highlight-bg {
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    z-index: 3;
+    margin-left: 2.3rem;
+}
+
+.highlight-bg::before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    width: 140%;
+    height: 120%;
+    background-color: $mySecondaryColor;
+    // transform: translate(-50%, -50%);
+    left: -20%;
+    top: -10%;
+    clip-path: polygon(10% 0, 100% 0, 90% 100%, 0 100%);
 }
