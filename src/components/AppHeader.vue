@@ -18,7 +18,7 @@ export default {
 
 <template>
     <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid d-flex justify-content-between col-xs-12 col-lg-10 ">
+        <div class="container-fluid d-flex justify-content-between col-xs-12 col-lg-10 my-2">
             <!-- Website logo -->
             <div class="col-lg-3">
                 <a class="navbar-brand" href="#">
@@ -59,7 +59,7 @@ export default {
 
 nav {
     margin: 0 auto;
-
+    background-color: $myPrimaryColor;
     .fa-solid {
         color: $myOtherColor;
 
