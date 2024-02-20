@@ -76,13 +76,13 @@ export default {
                 </div>
             </div>
         </div>
-        <div class="row col-lg-10 justify-content-between mx-auto py-2">
+        <div id="copyright" class="row col-lg-10 justify-content-between align-items-center mx-auto py-2">
             <div class="col-3">
                 <p class="mb-0">
                     Copyright © 2024 Codezeel
                 </p>
             </div>
-            <div id="payments" class="d-flex gap-2 justify-content-end ">
+            <div id="payments" class="d-flex col-3 gap-2 justify-content-end align-items-center">
                 <img src="../assets/img/footer/amex-color.png" alt="payment">
                 <img src="../assets/img/footer/discover-color.png" alt="payment">
                 <img src="../assets/img/footer/mastercard-color.png" alt="payment">
@@ -144,6 +144,10 @@ footer {
                 color: $mySecondaryColor;
             }
         }
+    }
+
+    #copyright {
+        border-top: 0.5px solid #ffffff65;
     }
 
     #payments img {
