@@ -12,6 +12,14 @@ $dropdown-border-radius: none;
 $dropdown-bg: $myPrimaryColor;
 $dropdown-link-hover-color: $myPrimaryColor;
 $dropdown-link-hover-bg: $mySecondaryColor;
+// input
+$input-bg: $myOtherColor;
+$input-color: $myPrimaryColor;
+$input-border-width: none;
+$input-border-radius: 0;
+$input-group-addon-bg: $myOtherColor;
+$input-group-addon-color: $myPrimaryColor;
+$input-group-addon-border-color: none;
 
 @import "bootstrap/scss/bootstrap";
 // Import font
