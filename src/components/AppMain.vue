@@ -1,5 +1,7 @@
 <script>
 import { store } from "../store";
+import HomeHero from "./home/HomeHero.vue";
+import HomeAdvantages from "./home/HomeAdvantages.vue";
 
 export default {
     name: 'AppMain',
@@ -7,13 +9,18 @@ export default {
         return {
             store
         };
+    },
+    components: {
+        HomeHero,
+        HomeAdvantages
     }
 }
 </script>
 
 
 <template>
-<p>ciao</p>
+    <HomeHero />
+    <HomeAdvantages />
 </template>
 
 

@@ -28,8 +28,8 @@ export default {
 <style lang="scss">
 @use "./styles/general.scss" as *;
 
-// body {
-//     background-image: url('./assets/img/body-bg.jpg');
-//     background-repeat: no-repeat;
-// }
+body {
+    background-image: url('./assets/img/body-bg.jpg');
+    background-repeat: no-repeat;
+}
 </style>
