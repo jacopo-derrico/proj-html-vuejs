@@ -65,5 +65,45 @@ export const store = reactive({
             link: '#',
             faClass: 'fa-bag-shopping'
         },
-    ]
+    ],
+    footerInfoNav: [
+        {
+            name: 'Bookmark',
+            link: '#'
+        },
+        {
+            name: 'Features',
+            link: '#'
+        }, {
+            name: 'Sitemap',
+            link: '#'
+        }, {
+            name: 'Lists',
+            link: '#'
+        }, {
+            name: 'Contact Us',
+            link: '#'
+        },
+    ],
+    footerExtrasoNav: [
+        {
+            name: 'Delivery',
+            link: '#'
+        },
+        {
+            name: 'Cart',
+            link: '#'
+        }, {
+            name: 'Terms & Conditions',
+            link: '#'
+        }, {
+            name: 'My Account',
+            link: '#'
+        }, {
+            name: 'About Us',
+            link: '#'
+        },
+    ],
+    newsletterEmails: [],
+    addEmail: '',
 })
