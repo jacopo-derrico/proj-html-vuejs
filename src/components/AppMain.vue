@@ -5,6 +5,8 @@ import HomeAdvantages from "./home/HomeAdvantages.vue";
 import HomeCategories from "./home/HomeCategories.vue";
 import HomeDiscounts from "./home/HomeDiscounts.vue";
 import HomeGameCat from "./home/HomeGameCat.vue";
+import HomeShopCarousel from "./home/HomeShopCarousel.vue";
+import HomeDealsCarousel from "./home/HomeDealsCarousel.vue";
 
 export default {
     name: 'AppMain',
@@ -18,7 +20,9 @@ export default {
     HomeAdvantages,
     HomeCategories,
     HomeDiscounts,
-    HomeGameCat
+    HomeGameCat,
+    HomeShopCarousel,
+    HomeDealsCarousel
 }
 }
 </script>
@@ -29,7 +33,9 @@ export default {
     <HomeAdvantages />
     <HomeCategories/>
     <HomeGameCat />
+    <HomeShopCarousel/>
     <HomeDiscounts/>
+    <HomeDealsCarousel />
 </template>
 
 
