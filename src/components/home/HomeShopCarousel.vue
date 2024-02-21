@@ -2,14 +2,7 @@
 import { store } from "../../store";
 import ShopCarousel from "../home/ShopCarousel.vue";
 
-// carousel import
-import { defineComponent } from 'vue'
-import { Carousel, Navigation, Slide } from 'vue3-carousel'
-
-import 'vue3-carousel/dist/carousel.css'
-
-
-export default defineComponent({
+export default {
     name: 'HomeShopCarousel',
     components: {
         ShopCarousel,
@@ -19,7 +12,7 @@ export default defineComponent({
             store,
         };
     }
-})
+}
 </script>
 
 
