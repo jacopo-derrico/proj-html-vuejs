@@ -4,6 +4,7 @@ import HomeHero from "./home/HomeHero.vue";
 import HomeAdvantages from "./home/HomeAdvantages.vue";
 import HomeCategories from "./home/HomeCategories.vue";
 import HomeDiscounts from "./home/HomeDiscounts.vue";
+import HomeGameCat from "./home/HomeGameCat.vue";
 
 export default {
     name: 'AppMain',
@@ -16,7 +17,8 @@ export default {
     HomeHero,
     HomeAdvantages,
     HomeCategories,
-    HomeDiscounts
+    HomeDiscounts,
+    HomeGameCat
 }
 }
 </script>
@@ -26,6 +28,7 @@ export default {
     <HomeHero />
     <HomeAdvantages />
     <HomeCategories/>
+    <HomeGameCat />
     <HomeDiscounts/>
 </template>
 
