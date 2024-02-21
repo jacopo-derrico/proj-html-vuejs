@@ -106,4 +106,28 @@ export const store = reactive({
     ],
     newsletterEmails: [],
     addEmail: '',
+    categoryBanner: [
+        {
+            catName: 'Most Popular',
+            gameTitle: 'The Battlefield 4 Naval Strike',
+            img: 'cms-banner-01.jpg'
+        },
+        {
+            catName: 'Latest Game',
+            gameTitle: "Assassin's Creed Unity Game",
+            img: 'cms-banner-02.jpg'
+        }
+    ],
+    discountBanner: [
+        {
+            discount: '20% Discount',
+            gameTitle: 'Dragon’s Dogma Video Game',
+            img: 'cms-banner-03.jpg'
+        },
+        {
+            discount: '30% Discount',
+            gameTitle: 'World Of Tanks New Game',
+            img: 'cms-banner-04.jpg'
+        }
+    ]
 })
