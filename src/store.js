@@ -223,5 +223,25 @@ export const store = reactive({
             job: 'Back-end Dev',
             message: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, There are many variations of passages of Lorem Ipsum available'
         }
+    ],
+    blogPreview: [
+        {
+            img: 'blog-1.jpg',
+            date: 'Jan 18, 2021',
+            comments: 0,
+            title: 'Anyway REPS is a NYC agency representing photographers'
+        },
+        {
+            img: 'blog-2.jpg',
+            date: 'May 30, 2021',
+            comments: 0,
+            title: 'Nasual risus suscipit Lorem Ipsum is simply text'
+        },
+        {
+            img: 'blog-3.jpg',
+            date: 'Apr 13, 2021',
+            comments: 0,
+            title: 'Nostrum Iesum Christum Lorem Ipsum is simply text'
+        }
     ]
 })
