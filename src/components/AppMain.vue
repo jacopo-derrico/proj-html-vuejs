@@ -9,6 +9,7 @@ import HomeShopCarousel from "./home/HomeShopCarousel.vue";
 import HomeDealsCarousel from "./home/HomeDealsCarousel.vue";
 import HomeTestimonials from "./home/HomeTestimonials.vue";
 import HomeBlog from "./home/HomeBlog.vue";
+import HomeBrands from "./home/HomeBrands.vue";
 
 export default {
     name: 'AppMain',
@@ -26,7 +27,8 @@ export default {
     HomeShopCarousel,
     HomeDealsCarousel,
     HomeTestimonials,
-    HomeBlog
+    HomeBlog,
+    HomeBrands
 }
 }
 </script>
@@ -42,6 +44,7 @@ export default {
     <HomeDealsCarousel />
     <HomeTestimonials/>
     <HomeBlog/>
+    <HomeBrands/>
 </template>
 
 

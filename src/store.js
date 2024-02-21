@@ -243,5 +243,22 @@ export const store = reactive({
             comments: 0,
             title: 'Nostrum Iesum Christum Lorem Ipsum is simply text'
         }
+    ],
+    brands: [
+        {
+            img: 'brand-01.png'
+        },
+        {
+            img: 'brand-02.png'
+        },
+        {
+            img: 'brand-03.png'
+        },
+        {
+            img: 'brand-04.png'
+        },
+        {
+            img: 'brand-05.png'
+        }
     ]
 })
