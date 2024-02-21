@@ -203,5 +203,25 @@ export const store = reactive({
             price: 75.00,
             discount: 0.37,
         }
+    ],
+    testimonialArr: [
+        {
+            img: 'testimonial-1.jpg',
+            name: 'Luis Charls',
+            job: 'Web Designer',
+            message: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, There are many variations of passages of Lorem Ipsum available'
+        },
+        {
+            img: 'testimonial-2.jpg',
+            name: 'Mark Wall',
+            job: 'Front-end Dev',
+            message: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, There are many variations of passages of Lorem Ipsum available'
+        },
+        {
+            img: 'testimonial-3.jpg',
+            name: 'James Rein',
+            job: 'Back-end Dev',
+            message: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, There are many variations of passages of Lorem Ipsum available'
+        }
     ]
 })

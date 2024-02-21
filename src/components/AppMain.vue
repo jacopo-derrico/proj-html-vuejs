@@ -7,6 +7,7 @@ import HomeDiscounts from "./home/HomeDiscounts.vue";
 import HomeGameCat from "./home/HomeGameCat.vue";
 import HomeShopCarousel from "./home/HomeShopCarousel.vue";
 import HomeDealsCarousel from "./home/HomeDealsCarousel.vue";
+import HomeTestimonials from "./home/HomeTestimonials.vue";
 
 export default {
     name: 'AppMain',
@@ -22,7 +23,8 @@ export default {
     HomeDiscounts,
     HomeGameCat,
     HomeShopCarousel,
-    HomeDealsCarousel
+    HomeDealsCarousel,
+    HomeTestimonials
 }
 }
 </script>
@@ -36,6 +38,7 @@ export default {
     <HomeShopCarousel/>
     <HomeDiscounts/>
     <HomeDealsCarousel />
+    <HomeTestimonials/>
 </template>
 
 
