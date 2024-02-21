@@ -19,17 +19,17 @@ export default {
         };
     },
     components: {
-    HomeHero,
-    HomeAdvantages,
-    HomeCategories,
-    HomeDiscounts,
-    HomeGameCat,
-    HomeShopCarousel,
-    HomeDealsCarousel,
-    HomeTestimonials,
-    HomeBlog,
-    HomeBrands
-}
+        HomeHero,
+        HomeAdvantages,
+        HomeCategories,
+        HomeDiscounts,
+        HomeGameCat,
+        HomeShopCarousel,
+        HomeDealsCarousel,
+        HomeTestimonials,
+        HomeBlog,
+        HomeBrands
+    }
 }
 </script>
 
@@ -37,17 +37,56 @@ export default {
 <template>
     <HomeHero />
     <HomeAdvantages />
-    <HomeCategories/>
+    <HomeCategories />
     <HomeGameCat />
-    <HomeShopCarousel/>
-    <HomeDiscounts/>
+    <HomeShopCarousel />
+    <HomeDiscounts />
     <HomeDealsCarousel />
-    <HomeTestimonials/>
-    <HomeBlog/>
-    <HomeBrands/>
+    <HomeTestimonials />
+    <HomeBlog />
+    <HomeBrands />
+
+    <div id="backToTopBtn">
+        <a href="#header">
+            <button class="btn p-0">
+                <i class="fa-solid fa-angles-up"></i>
+            </button>
+        </a>
+    </div>
 </template>
 
 
 <style lang="scss" scoped>
 @use "../styles/general.scss" as *;
+@use "../styles/partials/variables.scss" as *;
+
+#backToTopBtn {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+
+    width: 40px;
+    height: 40px;
+    transform: rotate(45deg);
+    background-color: $mySecondaryColor;
+    padding: 2.5px;
+
+    button {
+        width: 35px;
+        height: 35px;
+        border: 1px solid #000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    i {
+        color: black;
+        transform: rotate(-45deg);
+    }
+}
 </style>

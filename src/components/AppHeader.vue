@@ -17,7 +17,7 @@ export default {
 
 
 <template>
-    <nav class="navbar navbar-expand-lg">
+    <nav id="header" class="navbar navbar-expand-lg">
         <div class="container-fluid d-flex justify-content-between col-xs-12 col-lg-10 my-2">
             <!-- Website logo -->
             <div class="col-lg-3">
