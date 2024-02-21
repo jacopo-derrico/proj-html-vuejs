@@ -23,12 +23,12 @@ export default {
                 <h2 class="text-center mb-0 ">Our Products</h2>
                 <div class="divider mx-auto my-2 "></div>
             </div>
-            <div class="d-flex justify-content-center buttonsMenu mb-5">
+            <div class="col-12 d-flex justify-content-center buttonsMenu mb-5 flex-wrap ">
                 <button class="btn px-5 py-2">Featured</button>
                 <button class="btn px-5 py-2">New Arrivals</button>
                 <button class="btn px-5 py-2">Best Sellers</button>
             </div>
-            <ShopCarousel/>
+            <ShopCarousel />
         </div>
     </section>
 </template>
@@ -59,5 +59,4 @@ export default {
 .infos {
     background-color: $myAccentColor;
 }
-
 </style>

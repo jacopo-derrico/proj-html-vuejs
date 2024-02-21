@@ -19,7 +19,7 @@ export default {
 
 <template>
     <figure class="col-xs-12 col-lg-6 position-relative ">
-        <img  :src="`../../src/assets/img/home/${propsImg}`" alt="banner">
+        <img class="img-fluid"  :src="`../../src/assets/img/home/${propsImg}`" alt="banner">
         <div class="col-6 position-absolute ">
             <h3 class="highlight-bg text-black ">{{ propsName }}</h3>
             <h2 class="font-white mt-4">{{ propsTitle }}</h2>

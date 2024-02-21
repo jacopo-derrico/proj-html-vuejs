@@ -29,7 +29,7 @@ export default {
                 <div class="divider mx-auto my-2 "></div>
             </div>
             <vue-countdown :time="time" :interval="100" v-slot="{ days, hours, minutes, seconds, milliseconds }">
-                <div class="d-flex justify-content-center dealCountdown mb-5">
+                <div class="d-flex justify-content-center dealCountdown mb-5 flex-wrap ">
                     <h5 class="px-5 py-3">{{ days }} days</h5>
                     <h5 class="px-5 py-3">{{ hours }} hours</h5>
                     <h5 class="px-5 py-3">{{ minutes }} mins</h5>

@@ -25,7 +25,7 @@ export default {
 
 <template>
     <footer class="container-fluid">
-        <div id="footer-info" class="row col-lg-10 gap-2 flex-nowrap">
+        <div id="footer-info" class="row col-lg-10 gap-2 flex-lg-nowrap row-gap-5 ">
             <div class="col-xs-12 col-md-6 col-lg-3 d-flex flex-column">
                 <h5 class="mb-4">Address info</h5>
                 <div class="d-flex">
@@ -43,14 +43,14 @@ export default {
                     <a href="mailto:demo@example.com" class="grey-font">demo@example.com</a>
                 </div>
             </div>
-            <div class="col-xs-12 col-md-6 col-lg-3">
+            <div class="col-5 col-lg-3">
                 <h5 class="mb-3">Information</h5>
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 justify-content-between">
                     <AppFooterNav v-for="(element, index) in store.footerInfoNav" :key="index" :propsName="element.name"
                         :propsLink="element.link" />
                 </ul>
             </div>
-            <div class="col-xs-12 col-md-6 col-lg-3">
+            <div class="col-5 col-lg-3">
                 <h5 class="mb-3">Extras</h5>
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 justify-content-between">
                     <AppFooterNav v-for="(element, index) in store.footerInfoNav" :key="index" :propsName="element.name"

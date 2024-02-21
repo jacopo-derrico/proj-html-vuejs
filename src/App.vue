@@ -31,5 +31,6 @@ export default {
 body {
     background-image: url('./assets/img/body-bg.jpg');
     background-repeat: no-repeat;
+    background-size: cover;
 }
 </style>

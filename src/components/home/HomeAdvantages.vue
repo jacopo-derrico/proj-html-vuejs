@@ -15,8 +15,8 @@ export default {
 <template>
     <section class="container-fluid">
         <div class="row col-lg-10 mx-auto py-5 ">
-            <div class="col-12 d-flex ">
-                <div class="adv-hover d-flex col-md-6 col-lg-3 ">
+            <div class="col-12 d-flex flex-wrap row-gap-4 ">
+                <div class="adv-hover d-flex col-xs-12 col-md-6 col-lg-3 ">
                     <div class="me-4">
                         <i class="fa-solid fa-truck-fast"></i>
                     </div>
@@ -25,8 +25,8 @@ export default {
                         <p class="grey-font mb-0 ">Free Shipping On All Order</p>
                     </div>
                 </div>
-                <hr>
-                <div class="adv-hover d-flex col-md-6 col-lg-3 ">
+                <hr class="d-none d-lg-block ">
+                <div class="adv-hover d-flex col-xs-12 col-md-6 col-lg-3 ">
                     <div class="me-4">
                         <i class="fa-solid fa-sack-dollar"></i>
                     </div>
@@ -35,8 +35,8 @@ export default {
                         <p class="grey-font mb-0 ">Back Guarantee in 7 days</p>
                     </div>
                 </div>
-                <hr>
-                <div class="adv-hover d-flex col-md-6 col-lg-3 ">
+                <hr class="d-none d-lg-block ">
+                <div class="adv-hover d-flex col-xs-12 col-md-6 col-lg-3 ">
                     <div class="me-4">
                         <i class="fa-solid fa-award"></i>
                     </div>
@@ -45,8 +45,8 @@ export default {
                         <p class="grey-font mb-0 ">On every order over $130.00</p>
                     </div>
                 </div>
-                <hr>
-                <div class="adv-hover d-flex col-md-6 col-lg-3 ">
+                <hr class="d-none d-lg-block ">
+                <div class="adv-hover d-flex col-xs-12 col-md-6 col-lg-3 ">
                     <div class="me-4">
                         <i class="fa-solid fa-hand-holding-dollar"></i>
                     </div>
