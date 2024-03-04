@@ -21,21 +21,21 @@ export default {
             </div>
             <div class="d-flex col-12 flex-wrap ">
                 <figure class="col-lg-4 position-relative ">
-                    <img class="img-fluid" src="../../assets/img/home/category-image-02.jpg" alt="game cover">
+                    <img class="img-fluid" src="../../../public/img/home/category-image-02.jpg" alt="game cover">
                     <div class="px-2 py-3 position-absolute ">
                         <h5>Battlefield</h5>
                         <a href="#">Shop Now</a>
                     </div>
                 </figure>
                 <figure class="col-lg-4 position-relative ">
-                    <img class="img-fluid" src="../../assets/img/home/category-image-01.jpg" alt="game cover">
+                    <img class="img-fluid" src="../../../public/img/home/category-image-01.jpg" alt="game cover">
                     <div class="px-2 py-3 position-absolute ">
                         <h5>PUBG</h5>
                         <a href="#">Shop Now</a>
                     </div>
                 </figure>
                 <figure class="col-lg-4 position-relative ">
-                    <img class="img-fluid" src="../../assets/img/home/category-image-03.jpg" alt="game cover">
+                    <img class="img-fluid" src="../../../public/img/home/category-image-03.jpg" alt="game cover">
                     <div class="px-2 py-3 position-absolute ">
                         <h5>Dragonball Z</h5>
                         <a href="#">Shop Now</a>

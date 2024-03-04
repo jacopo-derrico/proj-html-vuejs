@@ -22,7 +22,7 @@ export default {
             <!-- Website logo -->
             <div class="col-lg-3">
                 <a class="navbar-brand" href="#">
-                    <img src="../assets/img/header/logo.png" alt="GameHoax">
+                    <img src="../../public/img/header/logo.png" alt="GameHoax">
                 </a>
             </div>
             <!-- Mobile menu button -->

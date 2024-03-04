@@ -29,7 +29,7 @@ export default {
 @use "./styles/general.scss" as *;
 
 body {
-    background-image: url('./assets/img/body-bg.jpg');
+    background-image: url('../public/img/body-bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }

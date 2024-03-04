@@ -48,7 +48,7 @@ export default defineComponent({
             <Slide v-for="slide in store.blogPreview" :key="slide">
                 <div class="carousel__item m-3 position-relative ">
                     <figure class="position-relative mb-0 ">
-                        <img class="img-fluid" :src="`./src/assets/img/blog/${slide.img}`" alt="thumbnail">
+                        <img class="img-fluid" :src="`../public/img/blog/${slide.img}`" alt="thumbnail">
                         <div class="hover-icons position-absolute action-icons justify-content-center align-items-center gap-3">
                             <div class="icon-circle d-flex justify-content-center align-items-center">
                                 <i class="fa-solid fa-plus"></i>

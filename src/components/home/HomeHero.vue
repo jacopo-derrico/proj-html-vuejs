@@ -33,7 +33,7 @@ export default {
 @use "../../styles/partials/variables.scss" as *;
 
 .container-fluid {
-    background-image: url('../../assets/img/home/hero-bg.jpg');
+    background-image: url('../../public/img/home/hero-bg.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

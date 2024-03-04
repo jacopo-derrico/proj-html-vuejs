@@ -48,9 +48,9 @@ export default defineComponent({
                     <Slide v-for="slide in store.productsData" :key="slide">
                         <div class="carousel__item m-3 position-relative ">
                             <figure class="position-relative mb-0 ">
-                                <img class="img-fluid" :src="`./src/assets/img/products/${slide.imgHover}`" alt="product">
+                                <img class="img-fluid" :src="`../../../public/img/products/${slide.imgHover}`" alt="product">
                                 <img class="img-fluid position-absolute hover-images"
-                                    :src="`./src/assets/img/products/${slide.img}`" alt="product">
+                                    :src="`../../../public/img/products/${slide.img}`" alt="product">
                                 <span v-if="slide.discount !== null"
                                     class="highlight-bg position-absolute discount-percent text-black ">-{{ slide.discount *
                                         100 }}%</span>

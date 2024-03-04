@@ -36,7 +36,7 @@ export default defineComponent({
                             <div class="mx-auto position-relative ">
                                 <i class="fa-solid fa-quote-left position-absolute p-2"></i>
                                 <figure class="overflow-hidden">
-                                    <img class="img-fluid" :src="`./src/assets/img/testimonials/${slide.img}`"
+                                    <img class="img-fluid" :src="`../../public/img/testimonials/${slide.img}`"
                                         alt="profile picture">
                                 </figure>
                             </div>
@@ -60,7 +60,7 @@ export default defineComponent({
 @use "../../styles/partials/variables.scss" as *;
 
 .container-fluid {
-    background-image: url('../../assets/img/testimonials/parallax.jpg');
+    background-image: url('../../public/img/testimonials/parallax.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

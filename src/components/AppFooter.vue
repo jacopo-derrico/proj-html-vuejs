@@ -83,11 +83,11 @@ export default {
                 </p>
             </div>
             <div id="payments" class="d-flex col-3 gap-2 justify-content-end align-items-center">
-                <img src="../assets/img/footer/amex-color.png" alt="payment">
-                <img src="../assets/img/footer/discover-color.png" alt="payment">
-                <img src="../assets/img/footer/mastercard-color.png" alt="payment">
-                <img src="../assets/img/footer/paypal-color.png" alt="payment">
-                <img src="../assets/img/footer/visa-color.png" alt="payment">
+                <img src="../../public/img/footer/amex-color.png" alt="payment">
+                <img src="../../public/img/footer/discover-color.png" alt="payment">
+                <img src="../../public/img/footer/mastercard-color.png" alt="payment">
+                <img src="../../public/img/footer/paypal-color.png" alt="payment">
+                <img src="../../public/img/footer/visa-color.png" alt="payment">
             </div>
         </div>
     </footer>
@@ -99,7 +99,7 @@ export default {
 @use "../styles/partials/variables.scss" as *;
 
 footer {
-    background-image: url('../assets/img/footer/footer-bg.png');
+    background-image: url('../../public/img/footer/footer-bg.png');
     background-position: center;
     background-size: cover;
 
